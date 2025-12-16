@@ -42,7 +42,7 @@ cmake --build build/arm_darwin_generic_mach_o_64bit-Debug --parallel
 
 ## Usage Examples
 
-*потом допилить*
+![default 3D primitives scene](https://github.com/saintsonoff/cad_scene/blob/develop/readme_src/1.png)
 
 ## Documentation
 
