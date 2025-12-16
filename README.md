@@ -41,8 +41,19 @@ cmake --build build/arm_darwin_generic_mach_o_64bit-Debug --parallel
 - **Strictly Typed** — Zero raw pointers in public API
 
 ## Usage Examples
-
+> Welcom default 3D primitives scene 
 ![default 3D primitives scene](https://github.com/saintsonoff/cad_scene/blob/develop/readme_src/1.png)
+> Add .stl 3D model to scene
+![stl 3D model](https://github.com/saintsonoff/cad_scene/blob/develop/readme_src/2.png)
+> Change models visability
+![change visability](https://github.com/saintsonoff/cad_scene/blob/develop/readme_src/3.png)
+> Rotate and Scale models
+![rotating and scaling](https://github.com/saintsonoff/cad_scene/blob/develop/readme_src/4.png)
+> Change models color
+![change color](https://github.com/saintsonoff/cad_scene/blob/develop/readme_src/5.png)
+> Ranging models Shininess
+![change shininess](https://github.com/saintsonoff/cad_scene/blob/develop/readme_src/6.png)
+> ![change shininess](https://github.com/saintsonoff/cad_scene/blob/develop/readme_src/7.png)
 
 ## Documentation
 
