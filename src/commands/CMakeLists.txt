@@ -1,13 +1,9 @@
-# =============================================================================
-# Commands Module - Aggregator CMakeLists.txt
-# =============================================================================
-
 add_subdirectory(interface)
 add_subdirectory(transform)
 add_subdirectory(material)
 add_subdirectory(history)
 
-# Aggregate interface library
+# Commands module aggregate
 add_library(cad_commands INTERFACE)
 target_link_libraries(cad_commands INTERFACE
     cad_commands_interface

@@ -1,14 +1,10 @@
-# =============================================================================
-# Renderer Module - Aggregator CMakeLists.txt
-# =============================================================================
-
 add_subdirectory(camera)
 add_subdirectory(buffer)
 add_subdirectory(shader)
 add_subdirectory(cache)
 add_subdirectory(renderer)
 
-# Aggregate interface library
+# Renderer module aggregate
 add_library(cad_renderer INTERFACE)
 target_link_libraries(cad_renderer INTERFACE
     cad_renderer_camera

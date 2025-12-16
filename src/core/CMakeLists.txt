@@ -1,13 +1,9 @@
-# =============================================================================
-# Core Module - Aggregator CMakeLists.txt
-# =============================================================================
-
 add_subdirectory(types)
 add_subdirectory(concepts)
 add_subdirectory(constants)
 add_subdirectory(error)
 
-# Aggregate interface library
+# Core module aggregate
 add_library(cad_core INTERFACE)
 target_link_libraries(cad_core INTERFACE
     cad_core_types

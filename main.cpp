@@ -15,7 +15,7 @@ int main(int argc, char* argv[])
     QApplication app(argc, argv);
     app.setApplicationName("CAD Scene Viewer");
     app.setApplicationVersion("1.0.0");
-    app.setOrganizationName("Veidemlmarov Technologies");
+    app.setOrganizationName("veidelmarov Technologies");
 
     // Configure default OpenGL format
     // OpenGL 4.1 Core - compatible with both macOS and Windows

@@ -1,13 +1,18 @@
 # CAD Viewer
 
-Industrial-grade 3D CAD Scene Viewer built with C++/OpenGL/QT.
+Industrial-grade 3D CAD Scene Viewer built with C++/OpenGL/Qt.
 
 ## Requirements
 
-- **C++23** compiler (GCC 13+, Clang 17+, MSVC 2022)
-- **Qt 6.8+**
-- **CMake 3.25+**
-- **OpenGL 4.1+** Core Profile
+### Build-Time Dependencies
+
+| Dependency | Version | Notes |
+|------------|---------|-------|
+| CMake | 3.25+ | Build system generator |
+| C++ Compiler | GCC 12+, Clang 15+, MSVC 2022 | Must support C++23 |
+| Qt 6 SDK | 6.5+ | Components: Widgets, OpenGLWidgets |
+| OpenGL | 4.1+ | Core Profile |
+| Doxygen | 1.9+ | Optional, for documentation |
 
 ## Build & Run
 
@@ -19,7 +24,7 @@ cmake --preset arm_darwin_generic_mach_o_64bit-Debug
 cmake --build build/arm_darwin_generic_mach_o_64bit-Debug --parallel
 
 # Run (macOS)
-./build/arm_darwin_generic_mach_o_64bit-Debug/veidemlmarov_technologies_cad_scene.app/Contents/MacOS/veidemlmarov_technologies_cad_scene
+./build/arm_darwin_generic_mach_o_64bit-Debug/veidelmarov_technologies_cad_scene.app/Contents/MacOS/veidelmarov_technologies_cad_scene
 ```
 
 ## Architecture
