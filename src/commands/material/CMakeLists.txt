@@ -1,0 +1,4 @@
+# Material undo/redo commands
+add_library(cad_commands_material STATIC MaterialCommand.cpp)
+target_include_directories(cad_commands_material PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_link_libraries(cad_commands_material PUBLIC cad_commands_interface cad_scene cad_core)
