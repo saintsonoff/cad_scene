@@ -1,0 +1,10 @@
+# =============================================================================
+# src/CMakeLists.txt - Root source directory
+# =============================================================================
+
+add_subdirectory(core)
+add_subdirectory(scene)
+add_subdirectory(commands)
+add_subdirectory(io)
+add_subdirectory(renderer)
+add_subdirectory(gui)

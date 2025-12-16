@@ -1,0 +1,17 @@
+# =============================================================================
+# Commands Transform Module
+# =============================================================================
+
+add_library(cad_commands_transform STATIC
+    TransformCommands.cpp
+)
+
+target_include_directories(cad_commands_transform PUBLIC
+    ${CMAKE_CURRENT_SOURCE_DIR}
+)
+
+target_link_libraries(cad_commands_transform PUBLIC
+    cad_commands_interface
+    cad_scene
+    cad_core
+)
